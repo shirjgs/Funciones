@@ -1,0 +1,28 @@
+#semaforo {
+    width: 100px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .luz {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  #verde {
+    background-color: green;
+  }
+
+  #amarillo {
+    background-color: yellow;
+  }
+
+  #rojo {
+    background-color: red;
+  }
